@@ -35,6 +35,46 @@ results, NPS and averages, and the status and transcript of every call.
 
 ---
 
+## Screenshots
+
+### 1. Feedback form (`/`)
+
+The public form learners fill in: three 1–5 ratings, pace, a 0–10 recommendation score, two
+open questions and consent to be quoted as a testimonial.
+
+![Feedback form](screenshots/feedback-form.png)
+
+### 2. Admin: results dashboard (`/admin` → Results)
+
+Overall averages and NPS, a breakdown by course, and every response. Responses collected by the
+AI agent are marked **by phone**.
+
+![Results dashboard](screenshots/admin-panel.png)
+
+### 3. Admin: phone calls (`/admin` → Phone calls)
+
+Upload a CSV of people to call, start the calls, and track each person's status, form progress
+(answers so far out of 9) and number of call attempts.
+
+![Phone calls and call log](screenshots/call-logs.png)
+
+### 4. Call transcript
+
+Opening a person shows the full transcript of each call attempt. In this example, speech-to-text
+heard "Fries" instead of "five", so the agent asked the caller to confirm before saving the
+answer.
+
+![Call transcript](screenshots/call-transcript-live.png)
+
+### 5. MongoDB: submitted feedback (`feedbacks` collection)
+
+Forms the agent completed are stored in the same shape as web-form submissions, with
+`source: "call"`.
+
+![feedbacks collection in MongoDB](screenshots/db-call-contacts.png)
+
+---
+
 ## Prerequisites
 
 | Tool | Version | Needed for |
