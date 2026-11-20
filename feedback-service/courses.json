@@ -1,0 +1,6 @@
+[
+  { "id": "ai-agents-software-engineering", "title": "AI Agents for Software Engineers" },
+  { "id": "ai-agents-data-engineering", "title": "AI Agents for Data Engineers" },
+  { "id": "ai-agents-devops", "title": "AI Agents for DevOps & Platform Engineers" },
+  { "id": "ai-agents-qa", "title": "AI Agents for QA & Test Engineers" }
+]
